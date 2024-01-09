@@ -8,7 +8,9 @@ body {
 body::-webkit-scrollbar {
     display: none;
 }
-
+button{
+    cursor: pointer;
+}
 .all {
     display: block;
     margin: 0 auto;
@@ -336,11 +338,19 @@ header {
 .port-img {
     width: 400px;
     height: 425px;
+    cursor: pointer;
 }
 
 .port-img img {
     width: 380px;
     height: 405px;
+}
+
+.port-img img:hover{
+    width: 400px;
+    height: 425px;
+    box-shadow: 8px 8px 10px grey;
+    border-radius: 16px;
 }
 
 /* subscribe section */
@@ -403,6 +413,7 @@ header {
     position: relative;
     left: 237px;
     bottom: 73px;
+    cursor: pointer;
 }
 
 /* footer section */
@@ -434,6 +445,8 @@ footer {
 .rows {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 250px;
     margin-bottom: -20px;
 }
 
